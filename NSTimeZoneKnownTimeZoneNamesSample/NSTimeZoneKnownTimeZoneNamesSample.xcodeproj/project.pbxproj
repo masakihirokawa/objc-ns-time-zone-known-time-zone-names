@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A43753171B924700D0DAB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A43752171B924700D0DAB3 /* UIKit.framework */; };
+		C2A43755171B924700D0DAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A43754171B924700D0DAB3 /* Foundation.framework */; };
+		C2A43757171B924700D0DAB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A43756171B924700D0DAB3 /* CoreGraphics.framework */; };
+		C2A4375D171B924700D0DAB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2A4375B171B924700D0DAB3 /* InfoPlist.strings */; };
+		C2A4375F171B924700D0DAB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A4375E171B924700D0DAB3 /* main.m */; };
+		C2A43763171B924700D0DAB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A43762171B924700D0DAB3 /* AppDelegate.m */; };
+		C2A43765171B924700D0DAB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A43764171B924700D0DAB3 /* Default.png */; };
+		C2A43767171B924700D0DAB3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A43766171B924700D0DAB3 /* Default@2x.png */; };
+		C2A43769171B924700D0DAB3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A43768171B924700D0DAB3 /* Default-568h@2x.png */; };
+		C2A4376C171B924700D0DAB3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4376A171B924700D0DAB3 /* MainStoryboard_iPhone.storyboard */; };
+		C2A4376F171B924700D0DAB3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4376D171B924700D0DAB3 /* MainStoryboard_iPad.storyboard */; };
+		C2A43772171B924700D0DAB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A43771171B924700D0DAB3 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C2A4374F171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTimeZoneKnownTimeZoneNamesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A43752171B924700D0DAB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2A43754171B924700D0DAB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2A43756171B924700D0DAB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2A4375A171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSTimeZoneKnownTimeZoneNamesSample-Info.plist"; sourceTree = "<group>"; };
+		C2A4375C171B924700D0DAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2A4375E171B924700D0DAB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2A43760171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimeZoneKnownTimeZoneNamesSample-Prefix.pch"; sourceTree = "<group>"; };
+		C2A43761171B924700D0DAB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2A43762171B924700D0DAB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2A43764171B924700D0DAB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C2A43766171B924700D0DAB3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C2A43768171B924700D0DAB3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2A4376B171B924700D0DAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C2A4376E171B924700D0DAB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C2A43770171B924700D0DAB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2A43771171B924700D0DAB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2A4374C171B924700D0DAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A43753171B924700D0DAB3 /* UIKit.framework in Frameworks */,
+				C2A43755171B924700D0DAB3 /* Foundation.framework in Frameworks */,
+				C2A43757171B924700D0DAB3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A43746171B924700D0DAB3 = {
+			isa = PBXGroup;
+			children = (
+				C2A43758171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample */,
+				C2A43751171B924700D0DAB3 /* Frameworks */,
+				C2A43750171B924700D0DAB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2A43750171B924700D0DAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4374F171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2A43751171B924700D0DAB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2A43752171B924700D0DAB3 /* UIKit.framework */,
+				C2A43754171B924700D0DAB3 /* Foundation.framework */,
+				C2A43756171B924700D0DAB3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A43758171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample */ = {
+			isa = PBXGroup;
+			children = (
+				C2A43761171B924700D0DAB3 /* AppDelegate.h */,
+				C2A43762171B924700D0DAB3 /* AppDelegate.m */,
+				C2A4376A171B924700D0DAB3 /* MainStoryboard_iPhone.storyboard */,
+				C2A4376D171B924700D0DAB3 /* MainStoryboard_iPad.storyboard */,
+				C2A43770171B924700D0DAB3 /* ViewController.h */,
+				C2A43771171B924700D0DAB3 /* ViewController.m */,
+				C2A43759171B924700D0DAB3 /* Supporting Files */,
+			);
+			path = NSTimeZoneKnownTimeZoneNamesSample;
+			sourceTree = "<group>";
+		};
+		C2A43759171B924700D0DAB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4375A171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample-Info.plist */,
+				C2A4375B171B924700D0DAB3 /* InfoPlist.strings */,
+				C2A4375E171B924700D0DAB3 /* main.m */,
+				C2A43760171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample-Prefix.pch */,
+				C2A43764171B924700D0DAB3 /* Default.png */,
+				C2A43766171B924700D0DAB3 /* Default@2x.png */,
+				C2A43768171B924700D0DAB3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2A4374E171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A43775171B924700D0DAB3 /* Build configuration list for PBXNativeTarget "NSTimeZoneKnownTimeZoneNamesSample" */;
+			buildPhases = (
+				C2A4374B171B924700D0DAB3 /* Sources */,
+				C2A4374C171B924700D0DAB3 /* Frameworks */,
+				C2A4374D171B924700D0DAB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTimeZoneKnownTimeZoneNamesSample;
+			productName = NSTimeZoneKnownTimeZoneNamesSample;
+			productReference = C2A4374F171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2A43747171B924700D0DAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = C2A4374A171B924700D0DAB3 /* Build configuration list for PBXProject "NSTimeZoneKnownTimeZoneNamesSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2A43746171B924700D0DAB3;
+			productRefGroup = C2A43750171B924700D0DAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A4374E171B924700D0DAB3 /* NSTimeZoneKnownTimeZoneNamesSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2A4374D171B924700D0DAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4375D171B924700D0DAB3 /* InfoPlist.strings in Resources */,
+				C2A43765171B924700D0DAB3 /* Default.png in Resources */,
+				C2A43767171B924700D0DAB3 /* Default@2x.png in Resources */,
+				C2A43769171B924700D0DAB3 /* Default-568h@2x.png in Resources */,
+				C2A4376C171B924700D0DAB3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C2A4376F171B924700D0DAB3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2A4374B171B924700D0DAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4375F171B924700D0DAB3 /* main.m in Sources */,
+				C2A43763171B924700D0DAB3 /* AppDelegate.m in Sources */,
+				C2A43772171B924700D0DAB3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2A4375B171B924700D0DAB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4375C171B924700D0DAB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2A4376A171B924700D0DAB3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4376B171B924700D0DAB3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C2A4376D171B924700D0DAB3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4376E171B924700D0DAB3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2A43773171B924700D0DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2A43774171B924700D0DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2A43776171B924700D0DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimeZoneKnownTimeZoneNamesSample/NSTimeZoneKnownTimeZoneNamesSample-Prefix.pch";
+				INFOPLIST_FILE = "NSTimeZoneKnownTimeZoneNamesSample/NSTimeZoneKnownTimeZoneNamesSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2A43777171B924700D0DAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSTimeZoneKnownTimeZoneNamesSample/NSTimeZoneKnownTimeZoneNamesSample-Prefix.pch";
+				INFOPLIST_FILE = "NSTimeZoneKnownTimeZoneNamesSample/NSTimeZoneKnownTimeZoneNamesSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2A4374A171B924700D0DAB3 /* Build configuration list for PBXProject "NSTimeZoneKnownTimeZoneNamesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A43773171B924700D0DAB3 /* Debug */,
+				C2A43774171B924700D0DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A43775171B924700D0DAB3 /* Build configuration list for PBXNativeTarget "NSTimeZoneKnownTimeZoneNamesSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A43776171B924700D0DAB3 /* Debug */,
+				C2A43777171B924700D0DAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2A43747171B924700D0DAB3 /* Project object */;
+}
